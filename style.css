@@ -1,0 +1,43 @@
+body{
+    font-family: 'Roboto',sans-serif;
+}
+
+.nav{
+    background-color: rgba(0, 0, 0, 0.849);
+    color: white;
+    display: flex;
+    height: 60px;
+    width: 800px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+
+;}
+
+.nav-title{
+    margin-left: 20px;
+}
+
+.nav-links{
+    width: 50%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: #10cbe7;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 4px 4px #000000;
+}
